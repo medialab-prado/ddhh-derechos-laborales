@@ -132,7 +132,7 @@
 		}
 
 		.container {
-			width: 100%;
+			width: 60%;
 		}
 
 	}
@@ -1616,17 +1616,18 @@
 	}
 
 	a {
-		color: inherit;
+		color: ;
 		border-bottom: solid 1px rgba(128, 128, 128, 0.15);
 		text-decoration: none;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		border: 1em;
 	}
 
 		a:hover {
-			color: #ef8376;
+			color: #58ACFA;
 			border-bottom-color: transparent;
 		}
 
@@ -1653,7 +1654,7 @@
 	}
 
 	p {
-		text-align: center;
+		text-align: justify;
 	}
 
 	br.clear {
@@ -1855,7 +1856,7 @@
 				line-height: 2.5em;
 				text-align: center;
 				border-radius: 100%;
-				border: -10;
+				border: 0;
 				color: inherit;
 			}
 
@@ -1993,8 +1994,8 @@
 	.button {
 		position: relative;
 		display: inline-block;
-		background: ;
-		color: #08088A;
+		background: #df7366;
+		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
 		text-decoration: none;
@@ -2002,7 +2003,7 @@
 		border: 0;
 		cursor: pointer;
 		outline: 0;
-		font-weight: 900;
+		font-weight: 300;
 		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
@@ -2014,8 +2015,8 @@
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			color: #58ACFA;
-			background: ;
+			color: #fff;
+			background: #ef8376;
 		}
 
 		input[type="button"].alt,
@@ -2069,14 +2070,14 @@
 		.icon.circled {
 			position: relative;
 			display: inline-block;
-			background: #2b252c;
+			background: #58ACFA;
 			color: #fff;
 			border-radius: 100%;
 			width: 3em;
 			height: 3em;
 			line-height: 3.25em;
 			text-align: center;
-			font-size: 1.25em;
+			font-size: 0.65em;
 		}
 
 			header .icon.circled {
